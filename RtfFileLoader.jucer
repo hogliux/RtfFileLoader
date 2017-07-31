@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="qPJiMj" name="RtfFileLoader" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.RtfFileLoader" includeBinaryInAppConfig="1"
+              jucerVersion="4.3.1">
+  <MAINGROUP id="QfHbXk" name="RtfFileLoader">
+    <GROUP id="{1E4B6656-38A2-AC4B-D456-CCBEB66FE948}" name="Source">
+      <FILE id="OXnzxn" name="AttributedStringSerializer.mm" compile="1"
+            resource="0" file="Source/AttributedStringSerializer.mm"/>
+      <FILE id="A0tyYr" name="AttributedStringSerializer.cpp" compile="1"
+            resource="0" file="Source/AttributedStringSerializer.cpp"/>
+      <FILE id="VuxQjt" name="AttributedStringSerializer.h" compile="0" resource="0"
+            file="Source/AttributedStringSerializer.h"/>
+      <FILE id="gY1kv4" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="RtfFileLoader"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="RtfFileLoader"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
